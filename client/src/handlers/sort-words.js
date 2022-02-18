@@ -22,12 +22,10 @@ export const sortWords = (event) => {
   */
 
   // ... write some code ...
- //handling sorted words 
- 
- 
+  //handling sorted words
+
   data.sort = howToSort;
   const sorted = sortStrings(data.words, data.sort),
     d = sorted.reduce((a, b) => `${a}<li>${b}</li>`, '');
   document.getElementById('list-container').innerHTML = `<ul>${d}</ul>`;
-  
-}
+};

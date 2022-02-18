@@ -45,24 +45,17 @@ export const inputWord = (event) => {
   if (action === 'add') {
     // ... write some code ...
 
-    if(!isWord(text)){ 
+    if (!isWord(text)) {
       warnings.innerText = `"${text}" is not a word`;
-      }else{
+    } else {
       data.words.push(text);
-      }
-    
-
-  } else if (action === 'remove') {
-
-    if(!data.words.includes(text)){
-    warnings.innerText = `"${text}" is not on the list`;
-      
-  }
-  else{
-      data.words.splice(data.words.indexOf(text),1);
     }
-    
-
+  } else if (action === 'remove') {
+    if (!data.words.includes(text)) {
+      warnings.innerText = `"${text}" is not on the list`;
+    } else {
+      data.words.splice(data.words.indexOf(text), 1);
+    }
   }
 
   /* -- render new words -- */
@@ -72,4 +65,4 @@ export const inputWord = (event) => {
   const listContainer = document.getElementById('list-container');
   listContainer.innerHTML = '';
   listContainer.appendChild(newList);
-}
+};

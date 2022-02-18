@@ -17,20 +17,20 @@
 - public
 - src
   - components
-    - [render-list.js](#clientsrccomponentsrender-listjs)
+    - [render-list.js](#\client\src\components\render-listjs)
   - handlers
-    - [input-word.js](#clientsrchandlersinput-wordjs)
-    - [sort-words.js](#clientsrchandlerssort-wordsjs)
+    - [input-word.js](#\client\src\handlers\input-wordjs)
+    - [sort-words.js](#\client\src\handlers\sort-wordsjs)
   - init
-    - [index.js](#clientsrcinitindexjs)
+    - [index.js](#\client\src\init\indexjs)
   - listeners
-    - [input-word.js](#clientsrclistenersinput-wordjs)
-    - [sort-words.js](#clientsrclistenerssort-wordsjs)
+    - [input-word.js](#\client\src\listeners\input-wordjs)
+    - [sort-words.js](#\client\src\listeners\sort-wordsjs)
   - logic
-    - [is-word.js](#clientsrclogicis-wordjs)
-    - [sort-strings.js](#clientsrclogicsort-stringsjs)
+    - [is-word.js](#\client\src\logic\is-wordjs)
+    - [sort-strings.js](#\client\src\logic\sort-stringsjs)
 - styles
-- [data.js](#clientdatajs)
+- [data.js](#\client\datajs)
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## /components
 
-<details><summary><a href="../../client/src/components/render-list.js" id="clientsrccomponentsrender-listjs">../client/src/components/render-list.js</a></summary>
+<details><summary><a href="../..\client\src\components\render-list.js" id="\client\src\components\render-listjs">..\client\src\components\render-list.js</a></summary>
 
 </details>
 
@@ -54,7 +54,7 @@
 
 ## /handlers
 
-<details><summary><a href="../../client/src/handlers/input-word.js" id="clientsrchandlersinput-wordjs">../client/src/handlers/input-word.js</a></summary>
+<details><summary><a href="../..\client\src\handlers\input-word.js" id="\client\src\handlers\input-wordjs">..\client\src\handlers\input-word.js</a></summary>
 
 <a name="inputWord"></a>
 
@@ -69,7 +69,7 @@ It is called each time the user clicks the "add word" button.
 
 </details>
 
-<details><summary><a href="../../client/src/handlers/sort-words.js" id="clientsrchandlerssort-wordsjs">../client/src/handlers/sort-words.js</a></summary>
+<details><summary><a href="../..\client\src\handlers\sort-words.js" id="\client\src\handlers\sort-wordsjs">..\client\src\handlers\sort-words.js</a></summary>
 
 <a name="sortWords"></a>
 
@@ -88,7 +88,7 @@ It is called each time the input selection changes.
 
 ## /init
 
-<details><summary><a href="../../client/src/init/index.js" id="clientsrcinitindexjs">../client/src/init/index.js</a></summary>
+<details><summary><a href="../..\client\src\init\index.js" id="\client\src\init\indexjs">..\client\src\init\index.js</a></summary>
 
 </details>
 
@@ -96,11 +96,11 @@ It is called each time the input selection changes.
 
 ## /listeners
 
-<details><summary><a href="../../client/src/listeners/input-word.js" id="clientsrclistenersinput-wordjs">../client/src/listeners/input-word.js</a></summary>
+<details><summary><a href="../..\client\src\listeners\input-word.js" id="\client\src\listeners\input-wordjs">..\client\src\listeners\input-word.js</a></summary>
 
 </details>
 
-<details><summary><a href="../../client/src/listeners/sort-words.js" id="clientsrclistenerssort-wordsjs">../client/src/listeners/sort-words.js</a></summary>
+<details><summary><a href="../..\client\src\listeners\sort-words.js" id="\client\src\listeners\sort-wordsjs">..\client\src\listeners\sort-words.js</a></summary>
 
 </details>
 
@@ -108,7 +108,7 @@ It is called each time the input selection changes.
 
 ## /logic
 
-<details><summary><a href="../../client/src/logic/is-word.js" id="clientsrclogicis-wordjs">../client/src/logic/is-word.js</a></summary>
+<details><summary><a href="../..\client\src\logic\is-word.js" id="\client\src\logic\is-wordjs">..\client\src\logic\is-word.js</a></summary>
 
 <a name="isWord"></a>
 
@@ -130,7 +130,7 @@ Checks if a string is a word. A word contains only letters.
 
 </details>
 
-<details><summary><a href="../../client/src/logic/sort-strings.js" id="clientsrclogicsort-stringsjs">../client/src/logic/sort-strings.js</a></summary>
+<details><summary><a href="../..\client\src\logic\sort-strings.js" id="\client\src\logic\sort-stringsjs">..\client\src\logic\sort-strings.js</a></summary>
 
 <a name="sortStrings"></a>
 
@@ -162,7 +162,7 @@ It does not modify the argument (no side-effects).
 
 ---
 
-<details><summary><a href="../../client/data.js" id="clientdatajs">../client/data.js</a></summary>
+<details><summary><a href="../..\client\data.js" id="\client\datajs">..\client\data.js</a></summary>
 
 <a name="data"></a>
 
