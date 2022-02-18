@@ -17,37 +17,37 @@
  * // ... write this!
  */
 export const sortStrings = (toSort = '', sortType = 'oldest') => {
-  if (sortType === 'oldest') {
+    if (sortType === 'oldest') {
     return toSort;
-  } else if (sortType === 'newest') {
+    } else if (sortType === 'newest') {
     return toSort.reverse();
-  } else if (sortType === 'shortest') {
+    } else if (sortType === 'shortest') {
     return toSort.sort((a, b) => {
-      return a.length - b.length;
+            return a.length - b.length;
     });
-  } else if (sortType === 'longest') {
+    } else if (sortType === 'longest') {
     return toSort.sort((a, b) => {
-      return b.length - a.length;
+        return b.length - a.length;
     });
-  } else if (sortType === 'a') {
+    } else if (sortType === 'a') {
     return toSort.sort((a, z) => {
-      if ((a, z)) {
+        if ((a, z)) {
         return -1;
-      }
-      if (z.a) {
+        }
+        if (z.a) {
         return 1;
-      }
-      return 0;
+        }
+        return 0;
     });
-  } else if (sortType === 'z') {
+    } else if (sortType === 'z') {
     return toSort.sort((a, z) => {
-      if (z < a) {
+    if (z < a) {
         return -1;
-      }
-      if (a < z) {
+    }
+    if (a < z) {
         return 1;
-      }
-      return 0;
+    }
+    return 0;
     });
-  }
+}
 };
